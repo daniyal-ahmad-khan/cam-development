@@ -1,0 +1,9 @@
+timestamp,Zone,position_x,position_z,label
+2024-08-20 02:30:46.364919,Safe Zone,-0.175,2.594,person
+2024-08-20 02:30:48.890713,Warning Zone,-0.118,1.803,person
+2024-08-20 02:31:06.291377,Danger Zone,0.0,0.46,person
+2024-08-20 02:31:08.668357,Safe Zone,0.0,2.41,person
+2024-08-20 02:31:11.185682,Danger Zone,-0.018,0.369,person
+2024-08-20 02:31:13.683390,Danger Zone,-0.023,0.36,person
+2024-08-20 02:31:16.068985,Danger Zone,-0.015,0.384,person
+2024-08-20 02:31:18.820728,Danger Zone,-0.018,0.382,person
