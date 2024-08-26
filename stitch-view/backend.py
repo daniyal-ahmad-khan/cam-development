@@ -122,6 +122,13 @@ def stitched_feed(left_idx, right_idx):
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
+@app.route('/reinitialize-cameras', methods=['POST'])
+def reinitialize_cameras():
+    """ Endpoint to reinitialize all cameras. This can be used to recognize newly connected cameras without restarting the server. """
+    release_cameras()
+    initialize_cameras()
+    return jsonify({'message': 'Cameras reinitialized'}), 200
+
 @app.route('/release-cameras', methods=['POST'])
 def release_cameras():
     """Endpoint to release all camera resources."""
